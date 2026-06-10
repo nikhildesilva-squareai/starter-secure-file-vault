@@ -1,12 +1,24 @@
 # Secure File Vault
 
-![Intermediate](https://img.shields.io/badge/difficulty-intermediate-F59E0B) ![Cybersecurity](https://img.shields.io/badge/course-Cybersecurity-0056CE)
+![Intermediate](https://img.shields.io/badge/difficulty-intermediate-F59E0B) ![Cybersecurity](https://img.shields.io/badge/course-Cybersecurity-0056CE) ![12 hours](https://img.shields.io/badge/estimated-12h-lightgrey)
 
-> **Square 1 AI** starter template for the **Secure File Vault** project.
+> **Square 1 AI** starter template — Cybersecurity
+
+## Overview
+
+In this intermediate-level project, you'll build a **Secure File Vault** using Python, AES, Argon2. Create an encrypted file storage system with secure key derivation. This is a hands-on project where you'll write real code, solve real problems, and build something you can showcase in your portfolio.
+
+This project is part of the **Cybersecurity** course, where you'll learn to identify, exploit, and defend against security vulnerabilities.
+
+## What You'll Learn
+
+- Write clean, well-structured Python code following PEP 8 conventions
+- Handle edge cases, error conditions, and performance optimisation
+- Write a comprehensive README with setup instructions, usage examples, and architecture overview
 
 ## Tech Stack
 
-`Python` `AES` `Argon2`
+`Python` `AES` `Argon2` 
 
 ## Requirements
 
@@ -14,6 +26,47 @@
 - [ ] Deploy to GitHub
 - [ ] Write README
 - [ ] Pass AI code review
+
+## Approach
+
+Break the project into small, testable pieces. Build the core functionality first — get the minimum viable version working before adding features. Test each component independently. Document your decisions and trade-offs as you go.
+
+## Milestones
+
+### 1. Setup & Planning
+Clone starter, set up environment, plan approach
+
+### 2. Core Implementation
+Build the main functionality
+
+### 3. Testing & Polish
+Add error handling, edge cases, tests
+
+### 4. Deploy & Document
+Deploy to GitHub, write docs, submit
+
+## Deliverables
+
+- Working application with all requirements implemented
+- Clean, well-documented source code on GitHub
+- README with setup instructions, screenshots, and usage guide
+
+## Tips & Guidance
+
+- Commit early and often — the AI reviewer can see your commit history and values incremental progress
+- Write your README as you build, not at the end — it helps clarify your thinking
+- Use virtual environments (`python -m venv venv`) to manage dependencies cleanly
+- The AI reviewer checks for: code quality, error handling, documentation, and whether all requirements are met
+
+## How You'll Be Evaluated
+
+The AI reviewer will analyse your actual source code and evaluate:
+
+- **Code quality**: clean, readable, well-structured code with proper naming conventions
+- **Completeness**: all requirements are implemented and functional
+- **Documentation**: README is comprehensive with setup instructions and usage examples
+- **Error handling**: edge cases are handled gracefully, not with crashes
+- **Git history**: regular commits with meaningful messages showing progressive development
 
 ## Getting Started
 
@@ -24,30 +77,12 @@ cd starter-secure-file-vault
 
 # Set up Python environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  # On Windows: venv\\Scripts\\activate
 pip install -r requirements.txt
 
 # Run
 python main.py
 ```
-
-## Project Structure
-
-```
-secure-file-vault/
-├── main.py            # Entry point
-├── src/               # Your source code
-│   └── __init__.py
-├── tests/             # Unit tests
-│   └── test_main.py
-├── requirements.txt   # Python dependencies
-├── .gitignore
-└── README.md
-```
-
-## Estimated Time
-
-~12 hours
 
 ## Submission
 
@@ -55,6 +90,10 @@ secure-file-vault/
 2. Push your code to your own **public** GitHub repository
 3. Go to [Square 1 AI](https://square1-tutor.vercel.app/projects) and submit your repo URL
 4. Our AI will review your actual code and give you a score with line-level feedback
+
+## Career Relevance
+
+This project builds skills directly applicable to roles like: **Security Engineer, Penetration Tester, Security Analyst**.
 
 ---
 
